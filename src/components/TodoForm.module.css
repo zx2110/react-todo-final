@@ -1,0 +1,45 @@
+.todoCard {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
+  padding: 32px 24px;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.input,
+.textarea {
+  border: 1.5px solid #b3c6e0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border 0.2s;
+}
+.input:focus,
+.textarea:focus {
+  border: 1.5px solid #4a90e2;
+}
+
+.button {
+  background: linear-gradient(90deg, #4a90e2 60%, #50e3c2 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, transform 0.1s;
+}
+.button:hover {
+  background: linear-gradient(90deg, #357ab8 60%, #3ad29f 100%);
+  transform: translateY(-2px) scale(1.03);
+}
